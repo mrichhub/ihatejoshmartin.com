@@ -1,0 +1,23 @@
+{
+	"[typescript]": {
+		"editor.codeActionsOnSave": {
+			"source.organizeImports": "explicit"
+		},
+	},
+	"[typescriptreact]": {
+		"editor.codeActionsOnSave": {
+			"source.organizeImports": "explicit"
+		},
+	},
+	"editor.detectIndentation": false,
+	"editor.insertSpaces": false,
+	"typescript.format.semicolons": "remove",
+	"typescript.preferences.importModuleSpecifier": "relative",
+	"typescript.preferences.quoteStyle": "double",
+	"typescript.tsdk": "node_modules/typescript/lib",
+	"[typescript][typescriptreact]": {
+		"editor.codeActionsOnSave": {
+			"source.organizeImports": "explicit"
+		}
+	},
+}
