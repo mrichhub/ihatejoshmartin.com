@@ -10,7 +10,7 @@
     "prebuild": "npm run cleardist",
     "predeploy": "npm run build",
     "preview": "vite preview",
-    "start": "vite"
+    "start": "vite --host"
   },
   "dependencies": {
     "@redsync/client-js": "^0.0.0-dev.26",
