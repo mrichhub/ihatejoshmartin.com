@@ -64,6 +64,7 @@
 			}
 
 			input {
+				background: #242424;
 				border: 1px solid #d1d5db;
 				border-radius: 0.6em;
 				font-size: 1em;
@@ -71,13 +72,26 @@
 				padding: 0.55em 0.8em;
 			}
 
+			@media (prefers-color-scheme: light) {
+				input {
+					background: #f9f9f9;
+				}
+			}
+
 			textarea {
+				background: #242424;
 				border: 1px solid #d1d5db;
 				border-radius: 0.7em;
 				font-size: 1.1em;
 				margin-top: 3;
 				padding: 0.7em 0.9em;
 				resize: vertical;
+			}
+
+			@media (prefers-color-scheme: light) {
+				textarea {
+					background: #f9f9f9;
+				}
 			}
 		}
 	}
