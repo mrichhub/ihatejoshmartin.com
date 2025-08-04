@@ -1,1 +1,1 @@
-export const GRIEVANCES_KEY = "grievances-test"
+export const GRIEVANCES_KEY = "jmart-grievances"
