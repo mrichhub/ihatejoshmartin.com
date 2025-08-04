@@ -1,0 +1,64 @@
+#root {
+	max-width: 1280px;
+	margin: 0 auto;
+	padding: 20px;
+	text-align: center;
+}
+
+.josh-martin-awful-pic {
+	width: 450px;
+}
+
+@media screen and (max-width: 500px) {
+	.josh-martin-awful-pic {
+		width: 90vw;
+	}
+}
+
+.why-do-we-hate-josh-martin {
+	color: #bbb;
+}
+
+@media (prefers-color-scheme: light) {
+	.why-do-we-hate-josh-martin {
+		color: #444;
+	}
+}
+
+.grievances {
+	margin-top: 60px;
+}
+
+.grievance {
+	border-top: solid 1px #aaa;
+	margin: 30px 0;
+	padding: 0 10px;
+	text-align: left;
+
+	.grievance-count {
+		font-weight: bold;
+		margin-bottom: 8px;
+	}
+
+	.grievance-date {
+		font-size: 0.9em;
+		font-style: italic;
+	}
+
+	.grievance-story {
+		margin: 0 0 10px;
+	}
+
+	.grievance-author {
+		font-size: 0.8em;
+		font-weight: bold;
+		text-align: right;
+	}
+}
+
+@media (prefers-color-scheme: light) {
+	.grievance {
+		border-top: solid 1px #999;
+	}
+}
+

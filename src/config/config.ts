@@ -5,5 +5,6 @@ function booleanEnvValue(property: string): boolean {
 
 export class Config
 {
+	static rediSyncApiKey: string = import.meta.env["VITE_REDISYNC_API_KEY"]
 	static useStrict: boolean = booleanEnvValue("VITE_USE_STRICT_MODE")
 }
