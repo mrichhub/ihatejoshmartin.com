@@ -39,7 +39,7 @@ export function AddGrievanceModal(props: AddGrievanceModalProps) {
 			})
 
 			setSubmitButtonText("Added!")
-			setTimeout(() => close(), 1000)
+			setTimeout(() => close(), 50)
 		}
 		catch (err) {
 			console.error("ERROR while submitting grievance:", err)
