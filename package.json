@@ -4,11 +4,13 @@
   "version": "0.0.0",
   "scripts": {
     "build": "tsc -b && vite build",
+	"build:production": "tsc -b && vite build --mode production",
     "cleardist": "rm -rf dist",
     "deploy": "node --env-file=.env.production -r ts-node/register ./build-scripts/deploy-aws.ts -P tsconfig.scripts.json",
     "lint": "eslint .",
     "prebuild": "npm run cleardist",
-    "predeploy": "npm run build",
+	"prebuild:production": "npm run cleardist",
+    "predeploy": "npm run build:production",
     "preview": "vite preview",
     "start": "vite --host"
   },
